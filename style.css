@@ -484,22 +484,14 @@ footer span a:hover{
     .right form .error-box{
        width: 150px;
     }
-    .scroll-up-btn{
-        right: 15px;
-        bottom: 15px;
-        height: 38px;
-        width: 35px;
-        font-size: 23px;
-        line-height: 38px;
-    }
 }
 
 #resume {
     background: #fff;
-    padding-top: 120px;
+    padding-top: 160px;
     padding-bottom: 30px;
     overflow: hidden;
-    padding-left: 15px;
+    padding-left: 22%;
  }
  
  #resume a, #resume a:visited  { color: crimson; }
@@ -520,7 +512,7 @@ footer span a:hover{
  }
  
  #resume .header-col { padding-top: 9px; }
- #resume .main-col { padding-right: 10%; }
+ #resume .main-col { padding-right: 28%; }
  
  .education, .work {
     margin-bottom: 48px;
@@ -543,4 +535,8 @@ footer span a:hover{
  }
  .bars{
      padding-left: 30px;
+     padding-top: 10px;
+ }
+ .school-title {
+     padding-top: 15px;
  }
