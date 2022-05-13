@@ -1,15 +1,15 @@
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if(this.scrollY > 20){
+$(document).ready(function () {
+    $(window).scroll(function () {
+        if (this.scrollY > 20) {
             $('.navbar').addClass("sticky");
-        }else{
+        } else {
             $('.navbar').removeClass("sticky");
         }
     });
-    $('.navbar .menu li a').click(function(){
+    $('.navbar .menu li a').click(function () {
         $('html').css("scrollBehavior", "smooth");
     });
-    $('.menu-btn').click(function(){
+    $('.menu-btn').click(function () {
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
