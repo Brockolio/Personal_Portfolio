@@ -157,13 +157,14 @@ section .title::after {
 /* home section styling */
 .home {
     display: flex;
-    background: url("images/picture.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+    background-image: url("https://static.vecteezy.com/ti/gratis-vektor/p2/831138-schwarz-mit-rosa-kante-uberlappenden-schichten-hintergrund-kostenlos-vektor.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .home .max-width {
@@ -215,7 +216,11 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
+<<<<<<< HEAD
     content: "Who I am";
+=======
+    content: "who i am";
+>>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
 }
 
 .about .about-content .left {
@@ -267,6 +272,13 @@ section .title::after {
 }
 
 /* portfolio section styling */
+<<<<<<< HEAD
+=======
+a {
+    color: #fff;
+}
+
+>>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
 .portfolio,
 .teams {
     color: #fff;
@@ -285,7 +297,11 @@ section .title::after {
 }
 
 .portfolio .serv-content .card {
+<<<<<<< HEAD
     width: calc(50% - 50px);
+=======
+    width: calc(25% - 20px);
+>>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -320,7 +336,11 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
+<<<<<<< HEAD
     content: "Get in touch";
+=======
+    content: "get in touch";
+>>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
 }
 
 .contact .contact-content .column {
