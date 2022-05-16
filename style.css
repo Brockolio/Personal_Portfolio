@@ -216,11 +216,7 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
-<<<<<<< HEAD
     content: "Who I am";
-=======
-    content: "who i am";
->>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
 }
 
 .about .about-content .left {
@@ -272,13 +268,10 @@ section .title::after {
 }
 
 /* portfolio section styling */
-<<<<<<< HEAD
-=======
 a {
     color: #fff;
 }
 
->>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
 .portfolio,
 .teams {
     color: #fff;
@@ -297,11 +290,7 @@ a {
 }
 
 .portfolio .serv-content .card {
-<<<<<<< HEAD
     width: calc(50% - 50px);
-=======
-    width: calc(25% - 20px);
->>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -336,11 +325,7 @@ a {
 
 /* contact section styling */
 .contact .title::after {
-<<<<<<< HEAD
     content: "Get in touch";
-=======
-    content: "get in touch";
->>>>>>> 67816a4765b400bacf62ab6fafc881593063ede8
 }
 
 .contact .contact-content .column {
